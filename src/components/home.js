@@ -16,15 +16,18 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
+  	//Fetch now playing film data
   	fetch('https://api.themoviedb.org/3/movie/now_playing?api_key=67b21e61bd995d6b696e96330d6f76a3&language=en-US&page=1&plot=full')
   		.then(response => response.json())
   		.then(data => this.setState({ nowPlaying: data.results }))
 
+  	//Fetch image config
   	fetch('https://api.themoviedb.org/3/configuration?api_key=67b21e61bd995d6b696e96330d6f76a3')
   		.then(response => response.json())
   		.then(data => this.setState({ config: data.images }))
   }
 
+  //Used by the slider to update the ratingFilter state
   updateRating = ratingFilter => {
   	this.setState({
   		ratingFilter: ratingFilter
