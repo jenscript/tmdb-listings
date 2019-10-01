@@ -1,0 +1,41 @@
+.navbar-default {
+  border-color: transparent!important;
+  background-color: #30313b;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: auto;
+
+  .logo {
+    animation-delay: 0.1s;
+  }
+
+  li {
+    a {
+      color: #fff!important;
+      text-transform: uppercase;
+      cursor: pointer;
+      animation-delay: 0.2s;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+  }
+
+  .nav.pull-right {
+    a {
+      padding: 18px 15px;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-transform: none;
+  }
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+}

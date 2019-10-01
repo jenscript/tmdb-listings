@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-weight: 300;
+	letter-spacing: 6px;
+	span {
+		font-weight: 100;
+		color: #73737d;
+		font-family: 'Inconsolata', monospace;
+	}
+}
+
+h2 {
+	margin-bottom: 50px;
+}
+
+.logo {
+	h1 {
+		letter-spacing: 1px;
+		font-family: 'Roboto Slab', serif;
+	}
+}
+
+h2, h3, h4 {
+	font-weight: 300;
+}
+
+h5 {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+p, a, span, li {
+	font-family: 'Raleway', sans-serif;
+}

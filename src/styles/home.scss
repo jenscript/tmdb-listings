@@ -1,0 +1,40 @@
+.gallery {
+	padding: 70px 0;
+	text-align: center;
+
+	.slick-dots {
+		bottom: -40px;
+	}
+}
+
+.services {
+	padding: 0 0 70px 0;
+
+	.service {
+		padding: 20px 38px;
+
+		.glyphicon {
+			font-size: 28px;
+			color: #fad46b;
+			padding: 28px;
+			border-radius: 50%;
+			background: #fef8e6;
+			margin-bottom: 28px;
+		}
+	}
+}
+
+.stack {
+	text-align: center;
+	padding: 70px 0;
+	background-color: #30313b;
+
+	h2 {
+		color: #fff;
+	}
+
+	img {
+		max-width: 85px;
+    margin: 20px 0;
+	}
+}
