@@ -5,19 +5,7 @@ class Header extends React.Component {
   render() {
     return (
 	    <div className="header">
-        <nav className="navbar navbar-default">
-          <div className="container">
-            <div className="" id="bs-example-navbar-collapse-1">
-              <ul className="nav navbar-nav">
-                <li>
-                  <a className="animated fadeIn logo" href="#">
-                    <Link to="/"><h1>//TMDB Listings</h1></Link>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <h1 className="text-center">Now Showing</h1>
       </div>
     );
   }

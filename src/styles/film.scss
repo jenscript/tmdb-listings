@@ -1,0 +1,56 @@
+.film {
+	background-color: #fff;
+	margin: 1.5%;
+	width: 47%;
+	float: left;
+	position: relative;
+	border: 1px solid #666;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.19);
+
+	.poster {
+		width: 50%;
+		float: left;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.meta {
+		float: left;
+		width: 50%;
+		padding: 10px 20px;
+		background: #fff;
+
+		h3 {
+			font-weight: bold;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+	  	width: 90%;
+	  	margin: 5%;
+
+	  	.meta {
+
+		  	h3 {
+		  		font-size: 20px;
+		  	}
+	  	}
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	  	.meta {
+
+		  	h3 {
+		  		font-size: 18px;
+		  	}
+
+		  	h4 {
+		  		font-size: 15px;
+		  	}
+	  	}
+	}
+}
